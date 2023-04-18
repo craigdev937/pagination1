@@ -1,0 +1,39 @@
+{
+  "name": "pagination1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://craigdev937.github.io/pagination1",
+  "main": "index.tsx",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "pro": "webpack --mode production",
+    "predeploy": "npm run pro",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.3"
+  }
+}
+
+

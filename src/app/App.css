@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Roboto&display=swap');
+
+:root {
+    --color-white: hsl(0, 0%, 100);
+    --color-steelblue: hsl(207, 44%, 49%);
+    --color-coral: hsl(16, 100%, 66%);
+}
+
+*, *::before, *::after {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-steelblue);
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.button {
+    margin: 3px;
+    padding: 4px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    user-select: none;
+}
+
+.button:hover {
+    background-color: var(--color-coral);
+    color: black;
+    cursor: pointer;
+}
+
+#option__group {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
